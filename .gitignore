@@ -1,0 +1,28 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# RAG database
+chroma_db/
+
+# Company documents - NEVER upload
+company_documents/*
+company_pdfs/*
+
+# Keep empty folders in Git
+!company_documents/.gitkeep
+!company_pdfs/.gitkeep
+
+# Secrets
+.env
+.env.*
+credentials.json
+token.json
+*.key
+*.pem
+
+# IDE/system files
+.vscode/
+.idea/
+.DS_Store
